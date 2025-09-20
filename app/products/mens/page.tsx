@@ -17,9 +17,6 @@ import { QAChecker } from "@/lib/qa-checker"
 import { sortProducts, filterProducts, type SortOption } from "@/lib/product-sorting" // Import shared sorting utilities
 import { SizeChartButton } from "@/components/size-chart/SizeChartButton"
 
-export const dynamic = "force-dynamic"
-export const revalidate: number = 0
-
 interface FilterState {
   category: string[]
   fabric: string[]
