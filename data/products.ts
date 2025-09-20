@@ -529,18 +529,18 @@ export const products = [
     images: ["/stride-waxed-vest-front.png", "/stride-waxed-vest-back.png", "/stride-waxed-vest-open.png"],
     summary: "Lightweight waxed cotton vest with quilted lining for layering in transitional weather.",
     keySpecs: [
-      "9oz Waxed Cotton Canvas",
+      "10oz Waxed Cotton Canvas",
       "Quilted Cotton Check Lining",
       "Water & Wind Resistant",
       "Corduroy-Lined Collar",
       "YKK Zippers",
     ],
     moq: "50 pieces / style (any size mix)",
-    fabric_oz: 9,
+    fabric_oz: 10,
     description:
-      "This lightweight waxed cotton vest is perfect for layering in transitional weather. Made from 9oz waxed cotton canvas with a quilted cotton check lining, it provides warmth without bulk. The corduroy-lined collar and adjustable side tabs ensure a comfortable fit, while the multiple pockets offer practical storage for everyday essentials.",
+      "This lightweight waxed cotton vest is perfect for layering in transitional weather. Made from 10oz waxed cotton canvas with a quilted cotton check lining, it provides warmth without bulk. The corduroy-lined collar and adjustable side tabs ensure a comfortable fit, while the multiple pockets offer practical storage for everyday essentials.",
     features: [
-      "Main Fabric: 100% waxed cotton canvas 9oz",
+      "Main Fabric: 100% waxed cotton canvas 10oz",
       "Lining: Quilted cotton check",
       "Weather: Water & wind resistant",
       "Collar: Corduroy-lined collar",
@@ -562,7 +562,7 @@ export const products = [
       { Size: "3XL", Chest_cm: 138, Hip_cm: 137, Length_cm: 75 },
     ],
     materials: [
-      { name: "Waxed Cotton Canvas", percentage: 100, weight_oz: 9 },
+      { name: "Waxed Cotton Canvas", percentage: 100, weight_oz: 10 },
       { name: "Cotton Check Lining", percentage: 100 },
     ],
     care: [
@@ -917,18 +917,18 @@ export const products = [
     ],
     summary: "Cozy sherpa-lined vest perfect for layering with exceptional warmth and comfort.",
     keySpecs: [
-      "100% Natural Waxed Cotton 12oz",
+      "100% Natural Waxed Cotton 9oz",
       "100% Polyester Sherpa Lining",
       "Water & Wind Resistant",
       "Full Sherpa Lining",
       "YKK Zippers",
     ],
     moq: "50 pieces / style (any size mix)",
-    fabric_oz: 12,
+    fabric_oz: 9,
     description:
-      "This sherpa-lined vest offers exceptional warmth and comfort for cooler days. Made from 12oz waxed cotton with a luxurious sherpa lining, it's perfect for layering over shirts or under jackets. The sleeveless design provides freedom of movement while maintaining core warmth, making it ideal for active outdoor pursuits.",
+      "This sherpa-lined vest offers exceptional warmth and comfort for cooler days. Made from 9oz waxed cotton with a luxurious sherpa lining, it's perfect for layering over shirts or under jackets. The sleeveless design provides freedom of movement while maintaining core warmth, making it ideal for active outdoor pursuits.",
     features: [
-      "Main Fabric: 100% natural waxed cotton, 12 oz",
+      "Main Fabric: 100% natural waxed cotton, 9 oz",
       "Lining: 100% polyester sherpa",
       "Weather: Water & wind resistant",
       "Front: YKK zipper",
@@ -946,7 +946,7 @@ export const products = [
       { Size: "2XL", Chest_cm: 138, Hip_cm: 137, Length_cm: 72 },
     ],
     materials: [
-      { name: "Waxed Cotton", percentage: 100, weight_oz: 12 },
+      { name: "Waxed Cotton", percentage: 100, weight_oz: 9 },
       { name: "Polyester Sherpa Lining", percentage: 100 },
     ],
     care: [
@@ -976,18 +976,18 @@ export const products = [
     ],
     summary: "Lightweight vest perfect for transitional weather with cotton check lining.",
     keySpecs: [
-      "100% Natural Waxed Cotton 9oz",
+      "100% Natural Waxed Cotton 6oz",
       "100% Cotton Check Lining",
       "Water & Wind Resistant",
       "Lightweight Design",
       "YKK Zippers",
     ],
     moq: "50 pieces / style (any size mix)",
-    fabric_oz: 9,
+    fabric_oz: 6,
     description:
-      "This lightweight vest is perfect for transitional weather when you need just a bit of extra warmth. Made from 9oz waxed cotton with a soft sherpa fleece lining, it offers weather protection without bulk. The sleeveless design makes it ideal for layering and provides excellent freedom of movement for active pursuits.",
+      "This lightweight vest is perfect for transitional weather when you need just a bit of extra warmth. Made from 6oz waxed cotton with a soft cotton check lining, it offers weather protection without bulk. The sleeveless design makes it ideal for layering and provides excellent freedom of movement for active pursuits.",
     features: [
-      "Main Fabric: 100% natural waxed cotton, 9 oz",
+      "Main Fabric: 100% natural waxed cotton, 6 oz",
       "Lining: 100% cotton check",
       "Weather: Water & wind resistant",
       "Front: YKK zipper",
@@ -1005,7 +1005,7 @@ export const products = [
       { Size: "2XL", Chest_cm: 138, Hip_cm: 137, Length_cm: 70 },
     ],
     materials: [
-      { name: "Waxed Cotton", percentage: 100, weight_oz: 9 },
+      { name: "Waxed Cotton", percentage: 100, weight_oz: 6 },
       { name: "Cotton Check Lining", percentage: 100 },
     ],
     care: [

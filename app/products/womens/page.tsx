@@ -391,8 +391,7 @@ export default function WomensCollectionPage() {
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-2xl lg:text-3xl font-bold mb-4">Custom Requirements & Private Label</h2>
               <p className="text-muted-foreground mb-6">
-                All products are private-label ready with customizable branding, lining options, and colorways. Minimum
-                order quantities start from 25-80 pieces depending on the style.
+                All products are private-label ready with customizable branding, lining options, and colorways. 
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild>
