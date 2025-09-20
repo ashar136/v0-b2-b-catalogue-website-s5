@@ -5,7 +5,7 @@ export const products = [
     category: "Men",
     subCategory: "Coats", // Added subCategory for proper sorting
     images: ["/outrider-long-coat-front.png", "/outrider-long-coat-back.png", "/outrider-long-coat-open.png"],
-    description: "This lightweight long oilskin coat is made for warmer conditions without sacrificing protection. Constructed from 12oz natural oilskin cotton, it features an attached shoulder cape, snap‑tab neck closure, spacious front pockets, and a rear gusset for improved mobility when riding. Its relaxed fit makes it easy to wear comfortably over other layers.",
+    summary: "Lightweight long oilskin coat for warmer conditions without sacrificing protection.",
     keySpecs: [
       "12oz Natural Oilskin Cotton",
       "Cotton Drill Lining",
@@ -16,7 +16,8 @@ export const products = [
     ],
     moq: "50 pieces / style (any size mix)",
     fabric_oz: 12, // Added fabric weight for sorting
-   
+    description:
+      "This lightweight long oilskin coat is made for warmer conditions without sacrificing protection. Constructed from 12oz natural oilskin cotton, it features an attached shoulder cape, snap-tab neck closure, spacious front pockets, and a rear gusset for improved mobility when riding. Its relaxed fit makes it easy to wear comfortably over other layers.",
     features: [
       "Main Fabric: 100% natural oilskin cotton 12oz",
       "Lining: 100% cotton drill",
@@ -62,8 +63,6 @@ export const products = [
     subCategory: "Coats", // Added subCategory for proper sorting
     images: ["/outrider-short-coat-front.png", "/outrider-short-coat-back.png", "/outrider-short-coat-open.png"],
     summary: "Lightweight short oilskin coat with cape and rear vent for riding mobility.",
-    description:
-      "This lightweight short oilskin coat is made for warmer conditions without sacrificing protection. Constructed from 12oz natural oilskin cotton, it features an attached shoulder cape, snap-tab neck closure, spacious front pockets, and a rear vent for improved mobility when riding. Its relaxed fit makes it easy to wear comfortably over other layers.",
     keySpecs: [
       "12oz Natural Oilskin Cotton",
       "Cotton Drill Lining",
@@ -74,7 +73,8 @@ export const products = [
     ],
     moq: "50 pieces / style (any size mix)",
     fabric_oz: 12, // Added fabric weight for sorting
-    
+    description:
+      "This lightweight short oilskin coat is made for warmer conditions without sacrificing protection. Constructed from 12oz natural oilskin cotton, it features an attached shoulder cape, snap-tab neck closure, spacious front pockets, and a rear vent for improved mobility when riding. Its relaxed fit makes it easy to wear comfortably over other layers.",
     features: [
       "Main Fabric: 100% natural oilskin cotton",
       "Lining (Body): Quilted cotton check",
