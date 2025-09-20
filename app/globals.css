@@ -1,0 +1,237 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Cache buster to clear any problematic cached CSS - v1.0.2 */
+
+:root {
+  /* Updated to Classy Graphite & Sand theme */
+  --background: oklch(1 0 0); /* Pure white base #FFFFFF */
+  --foreground: oklch(0.25 0.01 240); /* Headings #2C2C2C */
+  --card: oklch(1 0 0); /* Pure white for product cards */
+  --card-foreground: oklch(0.25 0.01 240); /* Headings color for text on cards */
+  --popover: oklch(1 0 0); /* White for popovers */
+  --popover-foreground: oklch(0.25 0.01 240); /* Headings color for text in popovers */
+  --primary: oklch(0.15 0.02 240); /* Optional navy #0B1F3A for small headings only */
+  --primary-foreground: oklch(1 0 0); /* White text on navy */
+  --secondary: oklch(0.9 0.005 85); /* Light grey #E5E7EB for dividers */
+  --secondary-foreground: oklch(0.25 0.01 240); /* Headings color on secondary */
+  --muted: oklch(0.98 0.005 85); /* Alt sections #FAFAFA */
+  --muted-foreground: oklch(0.35 0.01 240); /* Body text #4A4A4A */
+  --accent: oklch(0.65 0.08 65); /* Deep Sand #B6A48A for CTAs */
+  --accent-foreground: oklch(1 0 0); /* White text on Deep Sand */
+  --destructive: oklch(0.55 0.25 25); /* Red for error messages */
+  --destructive-foreground: oklch(1 0 0); /* White text on error messages */
+  --border: oklch(0.9 0.005 85); /* Dividers #E5E7EB */
+  --input: oklch(1 0 0); /* White for input fields */
+  --ring: oklch(0.65 0.08 65); /* Deep Sand for focus rings */
+  --chart-1: oklch(0.15 0.02 240); /* Navy for charts */
+  --chart-2: oklch(0.65 0.08 65); /* Deep Sand for charts */
+  --chart-3: oklch(0.25 0.01 240); /* Headings color for charts */
+  --chart-4: oklch(0.9 0.005 85); /* Light grey for charts */
+  --chart-5: oklch(0.98 0.005 85); /* Alt sections for charts */
+  --radius: 0.375rem; /* Subtle rounded corners */
+  --sidebar: oklch(1 0 0); /* White for sidebar */
+  --sidebar-foreground: oklch(0.25 0.01 240); /* Headings color for sidebar text */
+  --sidebar-primary: oklch(0.15 0.02 240); /* Navy for sidebar highlights */
+  --sidebar-primary-foreground: oklch(1 0 0); /* White text on sidebar highlights */
+  --sidebar-accent: oklch(0.65 0.08 65); /* Deep Sand for sidebar accents */
+  --sidebar-accent-foreground: oklch(1 0 0); /* White text on sidebar accents */
+  --sidebar-border: oklch(0.9 0.005 85); /* Light grey for sidebar borders */
+  --sidebar-ring: oklch(0.65 0.08 65); /* Deep Sand for sidebar focus */
+}
+
+.dark {
+  /* Updated dark mode to maintain Classy Graphite & Sand theme */
+  --background: oklch(0.15 0.02 240); /* Dark Navy */
+  --foreground: oklch(0.98 0.005 85); /* Off-white */
+  --card: oklch(0.2 0.01 240); /* Dark grey for cards */
+  --card-foreground: oklch(0.98 0.005 85); /* Off-white for text on cards */
+  --popover: oklch(0.2 0.01 240); /* Dark grey for popovers */
+  --popover-foreground: oklch(0.98 0.005 85); /* Off-white for text in popovers */
+  --primary: oklch(0.65 0.08 65); /* Deep Sand in dark mode */
+  --primary-foreground: oklch(0.15 0.02 240); /* Dark Navy text */
+  --secondary: oklch(0.3 0.01 240); /* Medium grey for secondary */
+  --secondary-foreground: oklch(0.98 0.005 85); /* Off-white text */
+  --muted: oklch(0.25 0.01 240); /* Dark grey for muted */
+  --muted-foreground: oklch(0.8 0.005 85); /* Lighter grey for better contrast in dark mode */
+  --accent: oklch(0.65 0.08 65); /* Deep Sand for accents */
+  --accent-foreground: oklch(1 0 0); /* White text on Deep Sand */
+  --destructive: oklch(0.55 0.25 25); /* Red for errors */
+  --destructive-foreground: oklch(0.98 0.005 85); /* Off-white text */
+  --border: oklch(0.3 0.01 240); /* Medium grey for borders */
+  --input: oklch(0.25 0.01 240); /* Dark grey for inputs */
+  --ring: oklch(0.65 0.08 65); /* Deep Sand for focus */
+  --chart-1: oklch(0.65 0.08 65); /* Deep Sand for charts */
+  --chart-2: oklch(0.7 0.005 85); /* Light grey for charts */
+  --chart-3: oklch(0.15 0.02 240); /* Dark Navy for charts */
+  --chart-4: oklch(0.98 0.005 85); /* Off-white for charts */
+  --chart-5: oklch(0.25 0.01 240); /* Dark grey for charts */
+  --sidebar: oklch(0.2 0.01 240); /* Dark grey for sidebar */
+  --sidebar-foreground: oklch(0.98 0.005 85); /* Off-white for sidebar text */
+  --sidebar-primary: oklch(0.65 0.08 65); /* Deep Sand for sidebar highlights */
+  --sidebar-primary-foreground: oklch(1 0 0); /* White text */
+  --sidebar-accent: oklch(0.3 0.01 240); /* Medium grey for sidebar accents */
+  --sidebar-accent-foreground: oklch(0.98 0.005 85); /* Off-white text */
+  --sidebar-border: oklch(0.3 0.01 240); /* Medium grey for sidebar borders */
+  --sidebar-ring: oklch(0.65 0.08 65); /* Deep Sand for sidebar focus */
+}
+
+/* Updated typography system for Classy Graphite & Sand theme */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap");
+
+@theme inline {
+  --font-sans: "Open Sans", var(--font-geist-sans);
+  --font-heading: "Montserrat", var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  /* Updated typography classes for new theme */
+  .font-heading {
+    font-family: "Montserrat", var(--font-geist-sans);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading font-semibold text-foreground;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  /* Updated card styling for new theme */
+  .premium-card {
+    @apply bg-card border border-border rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300;
+  }
+
+  .premium-card:hover {
+    @apply shadow-lg;
+  }
+
+  /* Updated button styling for Deep Sand accent */
+  .btn-premium {
+    @apply bg-accent text-accent-foreground hover:bg-accent/90 px-6 py-3 rounded-md font-medium transition-all duration-200 shadow-sm hover:shadow-md;
+  }
+
+  .btn-premium-outline {
+    @apply border border-foreground text-foreground hover:border-foreground/80 hover:text-foreground/80 px-6 py-3 rounded-md font-medium transition-all duration-200 bg-transparent;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  .container-wide {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer components {
+  /* Maximum specificity dropdown contrast fix for WCAG compliance */
+  header nav div.dropdown-menu,
+  header nav .dropdown-menu,
+  .dropdown-menu {
+    background-color: rgb(255, 255, 255) !important;
+    background: rgb(255, 255, 255) !important;
+    border: 1px solid #d1d5db !important;
+    opacity: 1 !important;
+  }
+
+  header nav div.dropdown-menu a.dropdown-link,
+  header nav .dropdown-menu a.dropdown-link,
+  header nav .dropdown-menu .dropdown-link,
+  .dropdown-link {
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(255, 255, 255) !important;
+    background: rgb(255, 255, 255) !important;
+  }
+
+  header nav div.dropdown-menu a.dropdown-link:hover,
+  header nav .dropdown-menu a.dropdown-link:hover,
+  header nav .dropdown-menu .dropdown-link:hover,
+  .dropdown-link:hover {
+    background-color: rgb(243, 244, 246) !important;
+    background: rgb(243, 244, 246) !important;
+    color: rgb(0, 0, 0) !important;
+  }
+
+  header nav div.dropdown-menu a.dropdown-link:focus,
+  header nav .dropdown-menu a.dropdown-link:focus,
+  header nav .dropdown-menu .dropdown-link:focus,
+  .dropdown-link:focus {
+    background-color: rgb(243, 244, 246) !important;
+    background: rgb(243, 244, 246) !important;
+    color: rgb(0, 0, 0) !important;
+  }
+}
+
+/* Additional utility class for maximum contrast */
+@layer utilities {
+  .dropdown-high-contrast {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0) !important;
+  }
+
+  .dropdown-high-contrast:hover {
+    background-color: rgb(243, 244, 246) !important;
+    color: rgb(0, 0, 0) !important;
+  }
+}

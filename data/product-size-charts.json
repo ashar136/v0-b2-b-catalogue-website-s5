@@ -1,0 +1,220 @@
+{
+  "mens": {
+    "outrider-long-coat": [
+      { "size": "XS", "chest": 116, "hip": 115, "length": 136 },
+      { "size": "S", "chest": 122, "hip": 121, "length": 138 },
+      { "size": "M", "chest": 128, "hip": 127, "length": 140 },
+      { "size": "L", "chest": 134, "hip": 133, "length": 142 },
+      { "size": "XL", "chest": 140, "hip": 139, "length": 144 },
+      { "size": "2XL", "chest": 146, "hip": 145, "length": 146 },
+      { "size": "3XL", "chest": 152, "hip": 151, "length": 148 },
+      { "size": "4XL", "chest": 158, "hip": 157, "length": 150 }
+    ],
+    "outrider-short-coat": [
+      { "size": "XS", "chest": 116, "hip": 115, "length": 100 },
+      { "size": "S", "chest": 122, "hip": 121, "length": 102 },
+      { "size": "M", "chest": 128, "hip": 127, "length": 104 },
+      { "size": "L", "chest": 134, "hip": 133, "length": 106 },
+      { "size": "XL", "chest": 140, "hip": 139, "length": 108 },
+      { "size": "2XL", "chest": 146, "hip": 145, "length": 110 },
+      { "size": "3XL", "chest": 152, "hip": 151, "length": 112 },
+      { "size": "4XL", "chest": 158, "hip": 157, "length": 114 }
+    ],
+    "crest-bomber-jacket": [
+      { "size": "S", "chest": 118, "hip": 105, "length": 69 },
+      { "size": "M", "chest": 124, "hip": 111, "length": 71 },
+      { "size": "L", "chest": 130, "hip": 117, "length": 73 },
+      { "size": "XL", "chest": 136, "hip": 123, "length": 75 },
+      { "size": "2XL", "chest": 142, "hip": 129, "length": 77 },
+      { "size": "3XL", "chest": 148, "hip": 135, "length": 79 },
+      { "size": "4XL", "chest": 154, "hip": 141, "length": 81 }
+    ],
+    "rover-waxed-jacket": [
+      { "size": "S", "chest": 118, "hip": 113, "length": 70 },
+      { "size": "M", "chest": 124, "hip": 119, "length": 72 },
+      { "size": "L", "chest": 130, "hip": 125, "length": 74 },
+      { "size": "XL", "chest": 136, "hip": 131, "length": 76 },
+      { "size": "2XL", "chest": 142, "hip": 137, "length": 78 },
+      { "size": "3XL", "chest": 148, "hip": 143, "length": 80 },
+      { "size": "4XL", "chest": 154, "hip": 149, "length": 82 }
+    ],
+    "scout-waxed-jacket": [
+      { "size": "S", "chest": 120, "hip": 118, "length": 79 },
+      { "size": "M", "chest": 126, "hip": 124, "length": 81 },
+      { "size": "L", "chest": 132, "hip": 130, "length": 83 },
+      { "size": "XL", "chest": 138, "hip": 136, "length": 85 },
+      { "size": "2XL", "chest": 144, "hip": 142, "length": 87 },
+      { "size": "3XL", "chest": 150, "hip": 148, "length": 89 },
+      { "size": "4XL", "chest": 156, "hip": 154, "length": 91 }
+    ],
+    "forge-oilskin-jacket": [
+      { "size": "S", "chest": 120, "hip": 118, "length": 80 },
+      { "size": "M", "chest": 126, "hip": 124, "length": 82 },
+      { "size": "L", "chest": 132, "hip": 130, "length": 84 },
+      { "size": "XL", "chest": 138, "hip": 136, "length": 86 },
+      { "size": "2XL", "chest": 144, "hip": 142, "length": 88 },
+      { "size": "3XL", "chest": 150, "hip": 148, "length": 90 },
+      { "size": "4XL", "chest": 156, "hip": 154, "length": 92 }
+    ],
+    "overland-waxed-hoodie-jacket": [
+      { "size": "S", "chest": 118, "hip": 110, "length": 70 },
+      { "size": "M", "chest": 124, "hip": 116, "length": 72 },
+      { "size": "L", "chest": 130, "hip": 122, "length": 74 },
+      { "size": "XL", "chest": 136, "hip": 128, "length": 76 },
+      { "size": "2XL", "chest": 142, "hip": 134, "length": 78 },
+      { "size": "3XL", "chest": 148, "hip": 140, "length": 80 },
+      { "size": "4XL", "chest": 154, "hip": 146, "length": 82 }
+    ],
+    "ironbark-oilskin-vest": [
+      { "size": "S", "chest": 114, "hip": 112, "length": 72 },
+      { "size": "M", "chest": 120, "hip": 118, "length": 74 },
+      { "size": "L", "chest": 126, "hip": 124, "length": 76 },
+      { "size": "XL", "chest": 132, "hip": 130, "length": 78 },
+      { "size": "2XL", "chest": 138, "hip": 136, "length": 80 },
+      { "size": "3XL", "chest": 144, "hip": 142, "length": 82 },
+      { "size": "4XL", "chest": 150, "hip": 148, "length": 84 }
+    ],
+    "stride-waxed-vest": [
+      { "size": "S", "chest": 112, "hip": 110, "length": 70 },
+      { "size": "M", "chest": 118, "hip": 116, "length": 72 },
+      { "size": "L", "chest": 124, "hip": 122, "length": 74 },
+      { "size": "XL", "chest": 130, "hip": 128, "length": 76 },
+      { "size": "2XL", "chest": 136, "hip": 134, "length": 78 },
+      { "size": "3XL", "chest": 142, "hip": 140, "length": 80 },
+      { "size": "4XL", "chest": 148, "hip": 146, "length": 82 }
+    ],
+    "overland-waxed-vest": [
+      { "size": "S", "chest": 112, "hip": 110, "length": 70 },
+      { "size": "M", "chest": 118, "hip": 116, "length": 72 },
+      { "size": "L", "chest": 124, "hip": 122, "length": 74 },
+      { "size": "XL", "chest": 130, "hip": 128, "length": 76 },
+      { "size": "2XL", "chest": 136, "hip": 134, "length": 78 },
+      { "size": "3XL", "chest": 142, "hip": 140, "length": 80 },
+      { "size": "4XL", "chest": 148, "hip": 146, "length": 82 }
+    ],
+    "outrider-oilskin-vest": [
+      { "size": "S", "chest": 112, "hip": 110, "length": 70 },
+      { "size": "M", "chest": 118, "hip": 116, "length": 72 },
+      { "size": "L", "chest": 124, "hip": 122, "length": 74 },
+      { "size": "XL", "chest": 130, "hip": 128, "length": 76 },
+      { "size": "2XL", "chest": 136, "hip": 134, "length": 78 },
+      { "size": "3XL", "chest": 142, "hip": 140, "length": 80 },
+      { "size": "4XL", "chest": 148, "hip": 146, "length": 82 }
+    ]
+  },
+  "womens": {
+    "swift-waxed-jacket": [
+      { "size": "S", "chest": 99, "hip": 103, "length": 82 },
+      { "size": "M", "chest": 105, "hip": 109, "length": 83 },
+      { "size": "L", "chest": 111, "hip": 115, "length": 84 },
+      { "size": "XL", "chest": 117, "hip": 121, "length": 85 },
+      { "size": "2XL", "chest": 125, "hip": 129, "length": 87 },
+      { "size": "3XL", "chest": 133, "hip": 137, "length": 89 },
+      { "size": "4XL", "chest": 141, "hip": 145, "length": 91 }
+    ],
+    "overland-outdoor-jacket": [
+      { "size": "S", "chest": 102, "hip": 105, "length": 64 },
+      { "size": "M", "chest": 108, "hip": 111, "length": 65 },
+      { "size": "L", "chest": 114, "hip": 117, "length": 66 },
+      { "size": "XL", "chest": 120, "hip": 123, "length": 67 },
+      { "size": "2XL", "chest": 128, "hip": 131, "length": 69 },
+      { "size": "3XL", "chest": 136, "hip": 139, "length": 71 },
+      { "size": "4XL", "chest": 144, "hip": 147, "length": 73 }
+    ],
+    "sage-waxed-jacket": [
+      { "size": "S", "chest": 99, "hip": 102, "length": 79 },
+      { "size": "M", "chest": 105, "hip": 108, "length": 80 },
+      { "size": "L", "chest": 111, "hip": 114, "length": 81 },
+      { "size": "XL", "chest": 117, "hip": 120, "length": 82 },
+      { "size": "2XL", "chest": 125, "hip": 128, "length": 84 },
+      { "size": "3XL", "chest": 133, "hip": 136, "length": 86 },
+      { "size": "4XL", "chest": 141, "hip": 144, "length": 88 }
+    ],
+    "rover-waxed-jacket": [
+      { "size": "S", "chest": 99, "hip": 102, "length": 64 },
+      { "size": "M", "chest": 105, "hip": 108, "length": 65 },
+      { "size": "L", "chest": 111, "hip": 114, "length": 66 },
+      { "size": "XL", "chest": 117, "hip": 120, "length": 67 },
+      { "size": "2XL", "chest": 125, "hip": 128, "length": 69 },
+      { "size": "3XL", "chest": 133, "hip": 136, "length": 71 },
+      { "size": "4XL", "chest": 141, "hip": 144, "length": 73 }
+    ],
+    "flint-utility-jacket": [
+      { "size": "S", "chest": 99, "hip": 104, "length": 71 },
+      { "size": "M", "chest": 105, "hip": 110, "length": 72 },
+      { "size": "L", "chest": 111, "hip": 116, "length": 73 },
+      { "size": "XL", "chest": 117, "hip": 122, "length": 74 },
+      { "size": "2XL", "chest": 125, "hip": 130, "length": 76 },
+      { "size": "3XL", "chest": 133, "hip": 138, "length": 78 },
+      { "size": "4XL", "chest": 141, "hip": 146, "length": 80 }
+    ],
+    "ironbark-sherpa-vest": [
+      { "size": "S", "chest": 98, "hip": 104, "length": 65 },
+      { "size": "M", "chest": 104, "hip": 110, "length": 66 },
+      { "size": "L", "chest": 110, "hip": 116, "length": 67 },
+      { "size": "XL", "chest": 116, "hip": 122, "length": 68 },
+      { "size": "2XL", "chest": 124, "hip": 130, "length": 70 },
+      { "size": "3XL", "chest": 132, "hip": 138, "length": 72 },
+      { "size": "4XL", "chest": 140, "hip": 146, "length": 74 }
+    ],
+    "overland-waxed-vest": [
+      { "size": "S", "chest": 95, "hip": 102, "length": 62 },
+      { "size": "M", "chest": 101, "hip": 108, "length": 63 },
+      { "size": "L", "chest": 107, "hip": 114, "length": 64 },
+      { "size": "XL", "chest": 113, "hip": 120, "length": 65 },
+      { "size": "2XL", "chest": 121, "hip": 128, "length": 67 },
+      { "size": "3XL", "chest": 129, "hip": 136, "length": 69 },
+      { "size": "4XL", "chest": 137, "hip": 144, "length": 71 }
+    ],
+    "aero-waxed-vest": [
+      { "size": "S", "chest": 93, "hip": 100, "length": 66 },
+      { "size": "M", "chest": 99, "hip": 106, "length": 67 },
+      { "size": "L", "chest": 105, "hip": 112, "length": 68 },
+      { "size": "XL", "chest": 111, "hip": 118, "length": 69 },
+      { "size": "2XL", "chest": 119, "hip": 126, "length": 71 },
+      { "size": "3XL", "chest": 127, "hip": 134, "length": 73 },
+      { "size": "4XL", "chest": 135, "hip": 142, "length": 75 }
+    ]
+  },
+  "aliases": {
+    "mens": {
+      "outrider-long-coat": "outrider-long-coat",
+      "outrider-short-coat": "outrider-short-coat",
+      "crest-bomber-jacket": "crest-bomber-jacket",
+      "rover-waxed-jacket": "rover-waxed-jacket",
+      "scout-waxed-jacket": "scout-waxed-jacket",
+      "forge-oilskin-jacket": "forge-oilskin-jacket",
+      "overland-waxed-hoodie-jacket": "overland-waxed-hoodie-jacket",
+      "ironbark-oilskin-vest": "ironbark-oilskin-vest",
+      "stride-waxed-vest": "stride-waxed-vest",
+      "overland-waxed-vest": "overland-waxed-vest",
+      "outrider-oilskin-vest": "outrider-oilskin-vest"
+    },
+    "womens": {
+      "swift-waxed-jacket": "swift-waxed-jacket",
+      "swift-waxed-jacket-womens": "swift-waxed-jacket",
+      "womens-swift-waxed-jacket": "swift-waxed-jacket",
+      "overland-outdoor-jacket": "overland-outdoor-jacket",
+      "overland-outdoor-jacket-womens": "overland-outdoor-jacket",
+      "womens-overland-outdoor-jacket": "overland-outdoor-jacket",
+      "sage-waxed-jacket": "sage-waxed-jacket",
+      "sage-waxed-jacket-womens": "sage-waxed-jacket",
+      "womens-sage-waxed-jacket": "sage-waxed-jacket",
+      "rover-waxed-jacket": "rover-waxed-jacket",
+      "rover-waxed-jacket-womens": "rover-waxed-jacket",
+      "womens-rover-waxed-jacket": "rover-waxed-jacket",
+      "flint-utility-jacket": "flint-utility-jacket",
+      "flint-utility-jacket-womens": "flint-utility-jacket",
+      "womens-flint-utility-jacket": "flint-utility-jacket",
+      "ironbark-sherpa-vest": "ironbark-sherpa-vest",
+      "ironbark-sherpa-vest-womens": "ironbark-sherpa-vest",
+      "womens-ironbark-sherpa-vest": "ironbark-sherpa-vest",
+      "overland-waxed-vest": "overland-waxed-vest",
+      "overland-waxed-vest-womens": "overland-waxed-vest",
+      "womens-overland-waxed-vest": "overland-waxed-vest",
+      "aero-waxed-vest": "aero-waxed-vest",
+      "aero-waxed-vest-womens": "aero-waxed-vest",
+      "womens-aero-waxed-vest": "aero-waxed-vest"
+    }
+  }
+}

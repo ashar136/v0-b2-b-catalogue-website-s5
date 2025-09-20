@@ -1,0 +1,12 @@
+{
+  "company": "F&A International",
+  "email_primary": "ashar@fainternational.com",
+  "email_general": "ashar@fainternational.com",
+  "phone": "+91-8858085252",
+  "whatsapp": "918858085252",
+  "address_lines": ["Kanpur, Uttar Pradesh, India", "India's Textile Capital"],
+  "hours": "Mon–Sat, 9:00–19:00 IST",
+  "response_time": "We reply within 24 hours.",
+  "cta_subject": "New B2B enquiry from website",
+  "cta_default_message": "Please share product name(s), quantity, destination country, and any specs. Lead times will be discussed after knowing everything."
+}
